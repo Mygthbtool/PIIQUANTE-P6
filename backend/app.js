@@ -1,6 +1,3 @@
-
-//mongodb+srv://ouchimido:<password>@cluster0.qhkbpwu.mongodb.net/?retryWrites=true&w=majority
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -11,7 +8,9 @@ const userRoutes = require('./routes/user');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://ouchimido:6XvlQqUE8Lcpj5Jg@cluster0.qhkbpwu.mongodb.net/?retryWrites=true&w=majority')
+require('dotenv').config();
+
+mongoose.connect(process.env.MONGODB_URL)
     .then(() => {
         console.log('Successfully connected to MongoDB Atlas');
     })
