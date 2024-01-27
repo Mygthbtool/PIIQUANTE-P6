@@ -22,16 +22,16 @@ navigate to http://localhost:4200
 
 To run the backend-server:
 
+cd backend<br>
+nodemon server
+
+To run the database(MongoDB):
+
 create '.env' file in your backend folder containing the following:<br>
     //Mongo db connection:<br>
     MONGODB_URL="your url connection here"<br>
     //Secret token<br>
     SECRET_TOKEN="your token here"
-
-cd backend<br>
-nodemon server
-
-
 
 
 
