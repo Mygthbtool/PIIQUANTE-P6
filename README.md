@@ -1,4 +1,4 @@
-"PIIQUANTE" is my 6th project at OpenCalssrooms Web-dev path.
+<strong>"PIIQUANTE"</strong> is my 6th project at OpenCalssrooms Web-dev path.
 
 Piiquante is a specialty maker of spicy, pepper-based condiments, asking for help with a new project. With the increasing popularity of specialty hot sauces, Piiquante wants to develop a hot sauce review web app called "Hot Takes."
 
@@ -11,19 +11,21 @@ Clone or download the code into your local machine
 
 To run frontend-side:
 
-cd frontend
-npm install
-npm run start
+cd frontend<br>
+cd Web-Developer-P6<br>
+npm install<br>
+npm run start<br>
 navigate to http://localhost:4200
 
 To run the backend-server:
-create '.env' file in your backend folder containing the following:
-    //Mongo db connection:
-    MONGODB_URL="your url connection here"
-    //Secret token
+
+create '.env' file in your backend folder containing the following:<br>
+    //Mongo db connection:<br>
+    MONGODB_URL="your url connection here"<br>
+    //Secret token<br>
     SECRET_TOKEN="your token here"
 
-cd backend
+cd backend<br>
 nodemon server
 
 
