@@ -24,6 +24,7 @@ To run the backend-server:
 
 cd backend<br>
 nodemon server
+Add a subfolder in your backend folder and call it "images" 
 
 To run the database(MongoDB):
 
