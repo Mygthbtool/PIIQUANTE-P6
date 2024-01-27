@@ -23,7 +23,7 @@ navigate to http://localhost:4200
 To run the backend-server:
 
 cd backend<br>
-nodemon server
+nodemon server<br>
 Add a subfolder in your backend folder and call it "images" 
 
 To run the database(MongoDB):
