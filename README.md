@@ -23,12 +23,13 @@ navigate to http://localhost:4200
 To run the backend-server:
 
 cd backend<br>
+npm init<br>
 nodemon server<br>
 Add a subfolder in your backend folder and call it "images" 
 
 To run the database(MongoDB):
 
-create '.env' file in your backend folder containing the following:<br>
+.create '.env' file in your backend folder containing the following:<br>
     //Mongo db connection:<br>
     MONGODB_URL="your url connection here"<br>
     //Secret token<br>
